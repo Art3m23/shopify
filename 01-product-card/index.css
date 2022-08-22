@@ -1,0 +1,256 @@
+/* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+body {
+  max-width: 1920px;
+  background-color: #F6F6F6;
+}
+
+.products {
+  width: 100%;
+  max-width: 1180px;
+}
+
+.main__products {
+  margin: 40px auto 0;
+}
+
+.text {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.products__heading--size {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.cards {
+  width: 100%;
+  max-width: 1180px;
+  height: 483px;
+}
+
+.products__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.cards__item {
+  box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+  background: #FFFFFF;
+}
+
+.item-cards {
+  width: 380px;
+  height: 482px;
+  border-radius: 12px;
+}
+
+.cards__item--position--r {
+  position: relative;
+}
+
+.content-cards {
+  width: 332px;
+  height: 220px;
+}
+
+.item-cards__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px auto 0;
+}
+
+.item-cards__image {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.content-cards__heading {
+  margin: 0;
+  text-align: left;
+}
+
+.content-cards__heading--size {
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: none;
+}
+
+.content-cards__description {
+  height: 96px;
+  text-align: left;
+}
+
+.content-cards__description--size {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.button {
+  width: 332px;
+  height: 48px;
+  background-color: transparent;
+  border: 2px solid #42940F;
+  border-radius: 8px;
+  color: #42940F;
+}
+
+.content-cards__button--size {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.content-cards__button--enabled {
+  cursor: pointer;
+}
+
+.content-cards__button--enabled:hover {
+  background-color: #42940F;
+  color: #FFFFFF;
+}
+
+.content-cards__button--enabled:active {
+  background: #1F5200;
+  border: 2px solid #1F5200;
+}
+
+.content-cards__button--disabled {
+  background-color: #4E4E4E;
+  border: 1px solid #4E4E4E;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+
+.tag {
+  width: 263px;
+  height: 25px;
+}
+
+.item-cards__tag {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.item-cards__tag--size {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tag__new {
+  width: 111px;
+  height: 25px;
+  background: #FDCFF3;
+  border-radius: 8px;
+}
+
+.tag__low-stock {
+  width: 136px;
+  height: 25px;
+  background: #FFCF56;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .products__heading--size {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .cards {
+    height: 1300px;
+  }
+
+  .products__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item-cards {
+    width: 300px;
+    height: 420px;
+  }
+
+  .content-cards {
+    width: 252px;
+    height: 200px;
+  }
+
+  .item-cards__content {
+    margin-top: 25px;
+  }
+
+  .item-cards__image {
+    width: 300px;
+  }
+
+  .content-cards__heading--size {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .content-cards__description--size {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .button {
+    width: 252px;
+    height: 36px;
+  }
+
+  .content-cards__button--size {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .tag {
+    width: 183px;
+    height: 20px;
+  }
+
+  .item-cards__tag--size {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .tag__new {
+    width: 75px;
+    height: 20px;
+  }
+
+  .tag__low-stock {
+    width: 92px;
+    height: 20px;
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .products__heading--size {
+    font-size: 40px;
+    line-height: 64px;
+  }
+
+  .cards {
+    height: 1486px;
+
+  }
+
+  .products__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
