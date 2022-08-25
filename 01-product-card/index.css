@@ -1,7 +1,9 @@
 /* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
 body {
+  width: 100%;
   max-width: 1920px;
   background-color: #F6F6F6;
+  margin: 0 auto;
 }
 
 .products {
