@@ -24,6 +24,10 @@ body {
   text-transform: uppercase;
 }
 
+.products__heading {
+  margin: 0;
+}
+
 .products__heading--size {
   font-size: 48px;
   line-height: 72px;
